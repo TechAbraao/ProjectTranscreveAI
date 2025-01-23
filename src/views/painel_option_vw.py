@@ -1,9 +1,10 @@
 import os
-
+import threading
 
 
 def introduction_interface():
-    # os.system("cls||clear")
+    # timer = threading.Timer(5, lambda: os.system("cls||clear"))
+    # timer.start()
     message = '''
     === Transcreve.Ai ===
 
